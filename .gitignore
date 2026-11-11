@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local vector database and uploaded files
+storage/
+documents/*
+!documents/sample.txt
+
+# IDE
+.vscode/
